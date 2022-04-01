@@ -2,6 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const cors = require('cors')
+require("dontenv").config();
 
 const usuarios = require('./controllers/usuarios')
 const lugares = require('./controllers/lugares')
