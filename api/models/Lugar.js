@@ -7,6 +7,7 @@ const Lugar = mongoose.model('Lugar', new Schema({
     descripcion:  String,
     img:  String,
     usu_id:  String,
+    estado: {type: String, default: '1'},
 }))
 
 module.exports = Lugar 
